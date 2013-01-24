@@ -7,6 +7,12 @@
     <version>0.1.1-SNAPSHOT</version>
     <name>bod-opendrac</name>
 
+    <parent>
+        <groupId>nl.surfnet.bod</groupId>
+        <artifactId>bod-parent-pom</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+
     <properties>
         <axis2.version>1.5.6</axis2.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -65,17 +71,9 @@
 
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>2.5</version>
-                <configuration>
-                    <encoding>UTF-8</encoding>
-                </configuration>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.axis2</groupId>
                 <artifactId>axis2-wsdl2code-maven-plugin</artifactId>
-                <version>1.5.6</version>
+                <version>${axis2.version}</version>
                 <executions>
                     <execution>
                         <id>resource-ws</id>
@@ -106,16 +104,4 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>surfnet-releases</id>
-            <name>surfnet-releases</name>
-            <url>http://atlas.dlp.surfnet.nl/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>surfnet-snapshots</id>
-            <name>surfnet-snapshots</name>
-            <url>http://atlas.dlp.surfnet.nl/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
