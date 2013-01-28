@@ -4,7 +4,7 @@
     <groupId>nl.surfnet.bod</groupId>
     <artifactId>bod-opendrac</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.1</version>
     <name>bod-opendrac</name>
 
     <parent>
@@ -21,7 +21,8 @@
         <connection>scm:git:git@github.com:BandwidthOnDemand/bod-opendrac.git</connection>
         <developerConnection>scm:git:git@github.com:BandwidthOnDemand/bod-opendrac.git</developerConnection>
         <url>https://github.com/BandwidthOnDemand/bod-opendrac</url>
-    </scm>
+      <tag>bod-opendrac-0.1.1</tag>
+  </scm>
 
     <dependencies>
         <dependency>
