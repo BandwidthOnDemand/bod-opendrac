@@ -296,6 +296,7 @@
 			<xs:element name="userId" type="xs:string" nillable="false"/>
 			<xs:element name="isRecurring" type="xs:boolean" nillable="false"/>
 			<xs:element name="isCanceble" type="xs:boolean" nillable="false"/>
+			<xs:element name="activated" type="xs:boolean" nillable="false"/>
 			<xs:element name="recurrence" type="tns:RecurrenceT" nillable="true" minOccurs="0"/>
 			<xs:element name="occurrenceId" type="xs:string" nillable="true" maxOccurs="3650"/>
 		</xs:sequence>
