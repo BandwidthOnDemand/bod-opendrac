@@ -4,20 +4,20 @@
     <groupId>nl.surfnet.bod</groupId>
     <artifactId>bod-opendrac</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.2</version>
+    <version>0.1.3-SNAPSHOT</version>
     <name>bod-opendrac</name>
 
     <parent>
         <groupId>nl.surfnet.bod</groupId>
         <artifactId>bod-parent-pom</artifactId>
-        <version>0.1.2</version>
+        <version>0.1.3-SNAPSHOT</version>
     </parent>
 
     <scm>
         <connection>scm:git:git@github.com:BandwidthOnDemand/bod-opendrac.git</connection>
         <developerConnection>scm:git:git@github.com:BandwidthOnDemand/bod-opendrac.git</developerConnection>
         <url>https://github.com/BandwidthOnDemand/bod-opendrac</url>
-      <tag>bod-opendrac-0.1.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
